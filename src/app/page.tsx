@@ -6,10 +6,10 @@ export default function Home() {
     <main className="h-screen w-screen bg-white">
       <Link
         href="/login"
-        className="flex flex-row justify-center items-center rounded-lg px-2 pt-2 pb-2 border-[2px] border-main500 shadow-md space-x-2 md:px-4 w-[130px] border-[#fe9611] bg-[#fe9611] text-white"
+        className="flex flex-row justify-center items-center rounded-lg px-2 pt-2 pb-2 border-[2px] border-main500 shadow-md space-x-2 md:px-4 w-[130px] border-[#fe9611]"
       >
-        <MaterialSymbolsLogin />
-        <label className="text-sm font-bold">ログイン</label>
+        <MaterialSymbolsLogin className="fill-red-500"/>
+        <label className="text-sm font-bold text-black">ログイン</label>
       </Link>
     </main>
   );
